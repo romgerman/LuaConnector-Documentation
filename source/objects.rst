@@ -17,12 +17,6 @@ NetHandle
 .. important:: Cannot be instantiated
 
 ===============
-CancelEventArgs
-===============
-
-.. important:: Cannot be instantiated
-
-===============
 Entity
 ===============
 
@@ -117,3 +111,9 @@ Vector3
 ===============
 
 See :doc:`Vector3 </vector3>`
+
+===============
+CancelEventArgs
+===============
+
+.. important:: Cannot be instantiated

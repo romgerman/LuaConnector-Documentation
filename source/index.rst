@@ -10,7 +10,7 @@ Description of all GT-MP API functions can be found on `GT-MP Wiki <https://wiki
 
 In this documentation you can find descriptions about events, available objects, their properties and functions, and some code samples.
 
-This library uses `MoonSharp <http://www.moonsharp.org/>`_ Lua interpreter. It almost not `differs <http://www.moonsharp.org/moonluadifferences.html>`_ from classic lua but it has some `additional things <http://www.moonsharp.org/additions.html>`_.
+This library uses `MoonSharp <http://www.moonsharp.org/>`_ Lua interpreter. It's almost not `differs <http://www.moonsharp.org/moonluadifferences.html>`_ from classic lua but it has some `additional things <http://www.moonsharp.org/additions.html>`_.
 
 .. toctree::
    :maxdepth: 2
