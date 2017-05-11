@@ -4,11 +4,17 @@ Supported objects
 
 Here you have a list of available objects (almost all of them exists in GTMP API)
 
+#############
+Objects
+#############
+
 =============
 Client
 =============
 
 .. important:: Cannot be instantiated
+
+`Reference <https://wiki.gt-mp.net/index.php?title=Client>`_
 
 =============
 NetHandle
@@ -16,11 +22,15 @@ NetHandle
 
 .. important:: Cannot be instantiated
 
+`Reference <https://wiki.gt-mp.net/index.php?title=NetHandle>`_
+
 ===============
 Entity
 ===============
 
 .. important:: Cannot be instantiated
+
+`Reference <https://wiki.gt-mp.net/index.php?title=Entity>`_
 
 ===============
 Object
@@ -33,6 +43,8 @@ Vehicle
 ===============
 
 .. important:: Cannot be instantiated
+
+`Reference <https://wiki.gt-mp.net/index.php?title=Vehicle>`_
 
 ===============
 Ped
@@ -74,29 +86,7 @@ TextLabel
 ColShape
 ===============
 
-.. important:: Cannot be instantiated
-
-===================
-Rectangle2DColShape
-===================
-
-.. important:: Cannot be instantiated
-
-===================
-Rectangle3DColShape
-===================
-
-.. important:: Cannot be instantiated
-
-===================
-CylinderColShape
-===================
-
-.. important:: Cannot be instantiated
-
-===================
-SphereColShape
-===================
+And all inherited classes ``Rectangle2DColShape``, ``Rectangle3DColShape``, ``CylinderColShape``, ``SphereColShape``
 
 .. important:: Cannot be instantiated
 
@@ -105,6 +95,8 @@ Color
 ===============
 
 .. important:: Cannot be instantiated
+
+`Reference <https://wiki.gt-mp.net/index.php?title=Color>`_
 
 ===============
 Vector3
@@ -117,3 +109,49 @@ CancelEventArgs
 ===============
 
 .. important:: Cannot be instantiated
+
+###############
+Enums
+###############
+
+All enums exist in ``Enum`` table. So for example to access ped hash you need to write it like this ``Enum.PedHash.Chef``
+
+====================
+WeaponHash
+====================
+
+====================
+VehicleHash
+====================
+
+====================
+PickupHash
+====================
+
+====================
+EntityType
+====================
+
+====================
+VehicleDataFlags
+====================
+
+====================
+ExplosionType
+====================
+
+====================
+Hash
+====================
+
+====================
+PedHash
+====================
+
+====================
+WeaponComponent
+====================
+
+====================
+WeaponTint
+====================

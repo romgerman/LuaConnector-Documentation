@@ -12,6 +12,8 @@ In this documentation you can find descriptions about events, available objects,
 
 This library uses `MoonSharp <http://www.moonsharp.org/>`_ Lua interpreter. It's almost not `differs <http://www.moonsharp.org/moonluadifferences.html>`_ from classic lua but it has some `additional things <http://www.moonsharp.org/additions.html>`_.
 
+.. note:: All API functions are accessible from ``API`` table (so you just write it like in C# scripts)
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -20,3 +22,5 @@ This library uses `MoonSharp <http://www.moonsharp.org/>`_ Lua interpreter. It's
    objects
    vector3
    json
+   samples
+   void
