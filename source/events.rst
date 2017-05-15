@@ -12,6 +12,11 @@ Events that gets called when something happend with script
 OnStart
 =============
 
+.. note::
+	Very first call is happening when LuaConnector was loaded by a server (in ``API.onResourceStart`` event)
+
+	Also called when resource gets reloaded
+
 Called when a script has been loaded::
 
 	function Script.OnStart()
@@ -19,6 +24,12 @@ Called when a script has been loaded::
 =============
 OnStop
 =============
+
+.. note::
+
+	Latest call happends when server calls ``API.onResourceStop`` event in LuaConnector
+
+	Also called when resource gets reloaded
 
 Called when a ascript has been unloaded::
 
@@ -326,3 +337,251 @@ Arguments
 * ``NetHandle`` vehicle
 
 Reference `OnPlayerExitVehicle <https://wiki.gt-mp.net/index.php?title=OnPlayerExitVehicle>`_
+
+============================
+OnPlayerFinishedDownload
+============================
+
+Called when client have finished downloading files::
+
+	function Server.OnPlayerFinishedDownload(player)
+
+------------
+Arguments
+------------
+
+* ``Client`` player
+
+Reference `OnPlayerFinishedDownload <https://wiki.gt-mp.net/index.php?title=OnPlayerFinishedDownload>`_
+
+===============================
+OnPlayerHealthChange
+===============================
+
+Called when player's health has changed::
+
+	function Server.OnPlayerHealthChange(player, oldVal)
+
+------------
+Arguments
+------------
+
+* ``Client`` player
+
+* ``number`` oldVal
+
+Reference `OnPlayerHealthChange <https://wiki.gt-mp.net/index.php?title=OnPlayerHealthChange>`_
+
+=============================
+OnPlayerModelChange
+=============================
+
+Called when player model has changed::
+
+	function Server.OnPlayerModelChange(player, oldVal)
+
+-------------
+Arguments
+-------------
+
+* ``Client`` player
+
+* ``number`` oldVal
+
+Reference `OnPlayerModelChange <https://wiki.gt-mp.net/index.php?title=OnPlayerModelChange>`_
+
+=========================
+OnPlayerPickup
+=========================
+
+Called when player have picked up a pickup::
+
+	function Server.OnPlayerPickup(player, pickup)
+
+------------
+Arguments
+------------
+
+* ``Client`` player
+
+* ``NetHandle`` pickup
+
+Reference `OnPlayerPickup <https://wiki.gt-mp.net/index.php?title=OnPlayerPickup>`_
+
+==========================
+OnPlayerRespawn
+==========================
+
+Called after player have respawned::
+
+	function Server.OnPlayerRespawn(player)
+
+----------------
+Arguments
+----------------
+
+* ``Client`` player
+
+Reference `OnPlayerRespawn <https://wiki.gt-mp.net/index.php?title=OnPlayerRespawn>`_
+
+==========================
+OnPlayerWeaponAmmoChange
+==========================
+
+Called when player's ammo changes::
+
+	function Server.OnPlayerWeaponAmmoChange(player, weapon, oldVal)
+
+-------------
+Arguments
+-------------
+
+* ``Client`` player
+
+* ``WeaponHash`` weapon
+
+* ``number`` oldValue
+
+Reference `OnPlayerWeaponAmmoChange <https://wiki.gt-mp.net/index.php?title=OnPlayerWeaponAmmoChange>`_
+
+==========================
+OnPlayerWeaponSwitch
+==========================
+
+Called when player changes current weapon::
+
+	function Server.OnPlayerWeaponSwitch(player, oldVal)
+
+-----------
+Arguments
+-----------
+
+* ``Client`` player
+
+* ``WeaponHash`` oldVal
+
+Reference `OnPlayerWeaponSwitch <https://wiki.gt-mp.net/index.php?title=OnPlayerWeaponSwitch>`_
+
+==========================
+OnVehicleDeath
+==========================
+
+Called when vehicle gets destoyed::
+
+	function Server.OnVehicleDeath(vehicle)
+
+------------
+Arguments
+------------
+
+* ``NetHandle`` vehicle
+
+Reference `OnVehicleDeath <https://wiki.gt-mp.net/index.php?title=OnVehicleDeath>`_
+
+=========================
+OnVehicleDoorBreak
+=========================
+
+Called when a vehicle door breaks::
+
+	function Server.OnVehicleDoorBreak(vehicle, index)
+
+----------
+Arguments
+----------
+
+* ``NetHandle`` vehicle
+
+* ``number`` index
+
+Reference `OnVehicleDoorBreak <https://wiki.gt-mp.net/index.php?title=OnVehicleDoorBreak>`_
+
+=========================
+OnVehicleHealthChange
+=========================
+
+Called when vehicle's health changes::
+
+	function Server.OnVehicleHealthChange(vehicle, oldVal)
+
+-----------
+Arguments
+-----------
+
+* ``NetHandle`` vehicle
+
+* ``number`` oldVal
+
+Reference `OnVehicleHealthChange <https://wiki.gt-mp.net/index.php?title=OnVehicleHealthChange>`_
+
+========================
+OnVehicleSirenToggle
+========================
+
+Called when vehicle siren toggles::
+
+	function Server.OnVehicleSirenToggle(vehicle, oldVal)
+
+----------
+Arguments
+----------
+
+* ``NetHandle`` vehicle
+
+* ``boolean`` oldVal
+
+Reference `OnVehicleSirenToggle <https://wiki.gt-mp.net/index.php?title=OnVehicleSirenToggle>`_
+
+========================
+OnVehicleTrailerChange
+========================
+
+Called when vehicle trailer changes::
+
+	function Server.OnVehicleTrailerChange(vehicle, trailer)
+
+-----------
+Arguments
+-----------
+
+* ``NetHandle`` vehicle
+
+* ``NetHandle`` trailer
+
+Reference `OnVehicleTrailerChange <https://wiki.gt-mp.net/index.php?title=OnVehicleTrailerChange>`_
+
+=========================
+OnVehicleTyreBurst
+=========================
+
+Called when vehicle's tyre burst::
+
+	function Server.OnVehicleTyreBurst(vehicle, tyre)
+
+--------------
+Arguments
+--------------
+
+* ``NetHandle`` vehicle
+
+* ``number`` tyre
+
+Reference `OnVehicleTyreBurst <https://wiki.gt-mp.net/index.php?title=OnVehicleTrailerChange>`_
+
+===========================
+OnVehicleWindowSmash
+===========================
+
+Called when window of vehicle was smashed by player::
+
+	function Server.OnVehicleWindowSmash(vehicle, window)
+
+------------
+Arguments
+------------
+
+* ``NetHandle`` vehicle
+
+* ``number`` window
+
+Reference `OnVehicleWindowSmash <https://wiki.gt-mp.net/index.php?title=OnVehicleWindowSmash>`_

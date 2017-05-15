@@ -2,7 +2,7 @@ Vector3
 =============================================
 .. highlight:: lua
 
-Vector3 class is almost identical to the class in GT-MP but contains a little more functions
+Vector3 class is almost identical to the class in GT-MP.
 
 To make a new instance of the class simply call ``Vector3(number, number, number)`` or ``Vector3:New(number, number, number)``
 
