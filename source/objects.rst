@@ -2,7 +2,7 @@ Supported objects
 =============================================
 .. highlight:: lua
 
-Here you have a list of available objects (almost all of them exists in GTMP API)
+Here you have a list of available objects (all of them exist in GTMP API)
 
 #############
 Objects
@@ -115,6 +115,8 @@ Enums
 ###############
 
 All enums exist in ``Enum`` table. So for example to access ped hash you need to write it like this ``Enum.PedHash.Chef``
+
+:doc:`Helper functions </enum>`
 
 ====================
 WeaponHash
