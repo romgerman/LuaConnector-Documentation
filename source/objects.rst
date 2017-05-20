@@ -110,6 +110,18 @@ CancelEventArgs
 
 .. important:: Cannot be instantiated
 
+==============
+CommandInfo
+==============
+
+.. important:: Cannot be instantiated
+
+===============
+TimeSpan
+===============
+
+.. important:: Cannot be instantiated
+
 ###############
 Enums
 ###############
@@ -156,4 +168,8 @@ WeaponComponent
 
 ====================
 WeaponTint
+====================
+
+====================
+ResourceType
 ====================
