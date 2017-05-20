@@ -20,9 +20,10 @@ This library uses `MoonSharp <http://www.moonsharp.org/>`_ Lua interpreter. It's
 
    events
    objects
+   enum
    vector3
    json
-   enum
+   http
    dump
    void
    samples

@@ -1,7 +1,7 @@
 Auto completion packages
 =============================
 
-To help you with scripting there is two available packages for auto completion.
+To help you with scripting here is two available packages for auto completion.
 
 =====================
 Sublime Text 3
@@ -13,8 +13,9 @@ Download package from `here <https://github.com/romgerman/LuaConnector-Documenta
 Installation
 -------------
 
-1. Copy the package to `yourSublimeTextInstallationFolder/Packages`
-2. Reload Sublime Text
+1. Install `Package Control <https://packagecontrol.io/>`_ if you haven't yet
+2. Copy the package to `yourSublimeTextInstallationFolder/Packages`
+3. Reload Sublime Text
 
 =====================
 Visual Studio Code
