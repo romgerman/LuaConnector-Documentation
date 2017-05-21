@@ -23,6 +23,7 @@ This library uses `MoonSharp <http://www.moonsharp.org/>`_ Lua interpreter. It's
    enum
    vector3
    json
+   xml
    http
    dump
    void

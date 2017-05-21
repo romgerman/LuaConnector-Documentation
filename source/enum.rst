@@ -6,7 +6,7 @@ Enum table helper functions
 castTo
 =============
 
-Allows you to cast a number to an enum::
+Allows you to cast a number or string to an enum::
 
 	Enum.castTo(enum, value)
 
@@ -16,7 +16,7 @@ Arguments
 
 * ``Enum`` enum
 
-* ``number`` value
+* ``number``/``string`` value
 
 ----------
 Example

@@ -65,7 +65,7 @@ Arguments
     * ``table`` headers
         request headers
 
-    * ``any`` content
+    * ``string`` content
         applies only to POST and PUT requests
 
 * ``string`` url
@@ -137,8 +137,6 @@ Examples
         }
     }
 
-    local request = http.request(options, function(req, res)
+    http.request(options, function(req, res)
         print(res.content)
-    end)
-
-    request.send()
+    end).send()

@@ -7,7 +7,7 @@ To help you with scripting here is two available packages for auto completion.
 Sublime Text 3
 =====================
 
-Download package from `here <https://github.com/romgerman/LuaConnector-Documentation/packages>`_
+Download package from `here <https://github.com/romgerman/LuaConnector-Documentation/tree/master/packages>`_
 
 -------------
 Installation
@@ -21,7 +21,7 @@ Installation
 Visual Studio Code
 =====================
 
-Download package from `here <https://github.com/romgerman/LuaConnector-Documentation/packages>`_
+Download package from `here <https://github.com/romgerman/LuaConnector-Documentation/tree/master/packages>`_
 
 -------------
 Installation
