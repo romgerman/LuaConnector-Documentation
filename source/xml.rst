@@ -88,11 +88,12 @@ Query language description for ``xml.get``
 
 	local document = xml.parse(string)
 
-	xml.get(document, "settings/graphics/resolution")    -- returns "1280x760"
-	xml.get(document, "settings/graphics/resolution/!")  -- returns table with "resolution" element
-	xml.get(document, "settings/graphics/1")             -- returns first element from "graphics" element
-	xml.get(document, "settings/graphics/[2]")           -- returns first 2 elements from "graphics" element
-	xml.get(document, "settings/graphics/resolution/[]") -- returns all attributes of "resolution"
+	xml.get(document, "settings/graphics/resolution")        -- returns "1280x760"
+	xml.get(document, "settings/graphics/resolution/!")      -- returns table with "resolution" element
+	xml.get(document, "settings/graphics/1")                 -- returns first element from "graphics" element
+	xml.get(document, "settings/graphics/[2]")               -- returns first 2 elements from "graphics" element
+	xml.get(document, "settings/graphics/resolution[]")      -- returns all attributes of "resolution"
+	xml.get(document, "settings/graphics/resolution[ratio]") -- returns "ratio" attribute of "resolution" element
 
 #############
 Examples

@@ -11,7 +11,7 @@ Functions
 API.delay
 ------------
 
-Reason: ??
+Reason: ``coroutine`` and ``timer`` (WIP) library
 
 --------------------------
 API.fetchNativeFromPlayer
@@ -41,19 +41,19 @@ Reason: not yet because dynamic
 API.loadConfig
 ----------------------
 
-Reason: ``xml`` module needed
+Reason: ??
 
 ----------------------
 API.loadXml
 ----------------------
 
-Reason: ``xml`` module needed
+Reason: there is already :doc:`xml </xml>` library
 
 ---------------------
 API.random
 ---------------------
 
-Reason: no need because there is already ``math.random``
+Reason: there is already ``math.random``
 
 -------------------
 API.startThread
@@ -66,9 +66,3 @@ API.toJson
 -------------------
 
 Reason: there is already :doc:`json </json>` library
-
-----------------------------
-API.getEntityFromHandle
-----------------------------
-
-Reason: not yet because generic
