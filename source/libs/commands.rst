@@ -14,7 +14,7 @@ add
 
 Adds a new chat command::
 
-    cmd.add(name, callback)
+    cmd.add(name, callback, [asArray])
 
 ^^^^^^^^^^
 Arguments
@@ -26,6 +26,9 @@ Arguments
 * ``function`` callback
     callback function
     ``function(client, arg1, arg2, ...)`` — all arguments is in type of ``string``
+
+* ``boolean`` asArray (optional, default: ``false``)
+    set it to true if you want to get arguments as an array
 
 =============
 remove
