@@ -1,7 +1,7 @@
 Timers library
 ================
 
-Easy way to create and use timers
+Easy way to create and use timers. Timer's resolution depends on server's tick rate. So calculate min timer interval using ``1000/tickrate``.
 
 #############
 Functions
@@ -117,6 +117,18 @@ Arguments
 
 * ``string`` name
     name of a timer
+
+===================
+setHighResolution
+===================
+
+.. warning::
+
+    Use this on your own risk. This may cause exceptions and other weird stuff.
+
+Sets all timers tick rate to 10ms::
+
+    timer.setHighResolution()
 
 #############
 Examples

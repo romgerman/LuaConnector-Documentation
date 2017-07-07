@@ -27,3 +27,4 @@ This library uses `MoonSharp <http://www.moonsharp.org/>`_ Lua interpreter. It's
    void
    samples
    packages
+   suggested
