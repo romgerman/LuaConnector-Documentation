@@ -14,3 +14,4 @@ List of built-in libraries
    libs/xml
    libs/cmenu
    libs/string
+   libs/orm
